@@ -1,18 +1,17 @@
 export default function PizzeriaMangio() {
   const pizzas = [
-    { name: 'Margherita', ingredients: 'Salsa di pomodoro, mozzarella', price: '€5,00', img: 'https://images.unsplash.com/photo-1601924579561-0f33c1f1c3c7?auto=format&fit=crop&w=800&q=80' },
-    { name: 'Diavola', ingredients: 'Salsa di pomodoro, mozzarella, ventricina', price: '€6,50', img: 'https://images.unsplash.com/photo-1603079849109-d389da1c3c95?auto=format&fit=crop&w=800&q=80' },
-    { name: 'Capricciosa', ingredients: 'Salsa di pomodoro, mozzarella, funghi champignon, olive riviera, carciofi, uova, prosciutto crudo', price: '€7,00', img: 'https://images.unsplash.com/photo-1628840042765-f3b3bd0f19b9?auto=format&fit=crop&w=800&q=80' },
-    { name: 'Tutto bufala', ingredients: 'Salsa di pomodoro, pachino, bufala, battuto di prezzemolo', price: '€7,50', img: 'https://images.unsplash.com/photo-1548365328-8b849e4a7d77?auto=format&fit=crop&w=800&q=80' },
-    { name: 'Quattro Formaggi', ingredients: 'Mozzarella, provola affumicata, gorgonzola, bufala', price: '€7,00', img: 'https://images.unsplash.com/photo-1585238342028-4b1d6b2d4e9f?auto=format&fit=crop&w=800&q=80' },
-    { name: 'Ortolana', ingredients: 'Cicoria, zucchine, broccoli, funghi, olive, peperoni, pachino', price: '€7,00', img: 'https://images.unsplash.com/photo-1594007654729-407eedc4be3a?auto=format&fit=crop&w=800&q=80' }
+    { name: 'Margherita', ingredients: 'Salsa di pomodoro, mozzarella', price: '€5,00', img: 'https://imgur.com/buIaT59' },
+    { name: 'Diavola', ingredients: 'Salsa di pomodoro, mozzarella, ventricina', price: '€6,50', img: 'https://imgur.com/55G73Nk' },
+    { name: 'Capricciosa', ingredients: 'Salsa di pomodoro, mozzarella, funghi champignon, olive riviera, carciofi, uova, prosciutto crudo', price: '€7,00', img: 'https://imgur.com/SPQzqMt' },
+    { name: 'Tutto bufala', ingredients: 'Salsa di pomodoro, pachino, bufala, battuto di prezzemolo', price: '€7,50', img: 'https://imgur.com/Q9SIPsQ' },
+    { name: 'Quattro Formaggi', ingredients: 'Mozzarella, provola affumicata, gorgonzola, bufala', price: '€7,00', img: 'https://imgur.com/Zu7bwvY' },
+    { name: 'Ortolana', ingredients: 'Cicoria, zucchine, broccoli, funghi, olive, peperoni, pachino', price: '€7,00', img: 'https://imgur.com/Xthjq00' }
   ];
 
   const gallery = [
-    'https://images.unsplash.com/photo-1601050690597-8c0d2f8f5c0d?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1628840042790-8ff2f4cc4f7f?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1603079849109-d389da1c3c95?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1601924579561-0f33c1f1c3c7?auto=format&fit=crop&w=800&q=80'
+    'https://imgur.com/fwGPCRi',
+    'https://imgur.com/CpKjxT5',
+    'https://imgur.com/gdWfwre'
   ];
 
   return (
@@ -20,7 +19,7 @@ export default function PizzeriaMangio() {
       {/* Hero Section */}
       <section className="relative h-screen w-full">
         <img
-          src="https://images.unsplash.com/photo-1601924579561-0f33c1f1c3c7?auto=format&fit=crop&w=1800&q=80"
+          src="https://imgur.com/gdWfwre"
           alt="Pizza MANGIO"
           className="absolute inset-0 w-full h-full object-cover brightness-75"
         />
@@ -87,7 +86,15 @@ export default function PizzeriaMangio() {
         <p className="text-gray-600 mb-6">Aperti tutti i giorni dalle 18:00 alle 23:30</p>
 
         <div className="max-w-3xl mx-auto mb-8">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5944.469078732254!2d12.4230260935791!3d41.8447783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1325f5d03cc31bc7%3A0x62b3722bef1b4dad!2sMANGIO!5e0!3m2!1sit!2sit!4v1759845930016!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe
+            title="Mappa Pizzeria MANGIO"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2971.6025255404416!2d12.42921107601445!3d41.85872886470381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13258b301c238e83%3A0x8633c7f1f31fef27!2sMANGIO!5e0!3m2!1sit!2sit!4v1728328082455!5m2!1sit!2sit"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            className="w-full h-64 rounded-2xl shadow-md"
+          ></iframe>
         </div>
 
         <a
